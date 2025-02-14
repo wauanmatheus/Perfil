@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Style</title>
+    <link rel="stylesheet" href="perfil.css">
+    <script defer src="perfil.js"></script>
+</head>
+<body>
+
+    <!-- MENU LATERAL -->
+    <nav id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">&#10094;</button>
+        <ul>
+            <li><button class="menu-item">- ISABEL</button></li>
+            <li><button class="menu-item">- ISUBEL</button></li>
+            <li><button class="menu-item">- ISABELÃO</button></li>
+        </ul>
+    </nav>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <button class="menu-btn" onclick="toggleSidebar()">&#9776;</button>
+        <h1>Style</h1>
+    </header>
+
+    <!-- PERFIL -->
+    <section class="profile">
+        <div class="profile-info">
+            <img src="img/github.png" alt="Foto de Perfil" class="profile-pic">
+            <h2>Ana Leal</h2>
+            <p>@aninha</p>
+            <p class="bio">Escritora e Sonhadora Incansável ✍️✨</p>
+            <button class="edit-btn">Editar Perfil</button>
+        </div>
+    </section>
+
+    <!-- STYFEED -->
+    <section class="style-feed">
+        <h3>StyFeed</h3>
+        <div class="feed-grid">
+            <button class="feed-item" onclick="verLook(1)"><img src="img/look 1 (1).png" alt="Look 1"><p>Look 1</p></button>
+            <button class="feed-item" onclick="verLook(2)"><img src="img/look 2 (1).png" alt="Look 2"><p>Look 2</p></button>
+            <button class="feed-item" onclick="verLook(3)"><img src="img/look 3 (1).png" alt="Look 3"><p>Look 3</p></button>
+            <button class="feed-item" onclick="verLook(4)"><img src="img/look 4.png" alt="Look 4"><p>Look 4</p></button>
+        </div>
+    </section>
+
+</body>
+</html>
